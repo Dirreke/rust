@@ -11,6 +11,7 @@
               target_arch = "arm",
               target_arch = "mips",
               target_arch = "powerpc",
+              target_arch = "csky"
               target_arch = "powerpc64"))]
 const MIN_ALIGN: usize = 8;
 #[cfg(any(target_arch = "x86_64",

@@ -519,6 +519,7 @@ impl<'a> fmt::Display for Display<'a> {
                         "asmjs" => "JavaScript",
                         "loongarch64" => "LoongArch LA64",
                         "m68k" => "M68k",
+                        "csky" => "CSKY",
                         "mips" => "MIPS",
                         "mips64" => "MIPS-64",
                         "msp430" => "MSP430",

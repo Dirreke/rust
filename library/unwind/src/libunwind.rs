@@ -51,6 +51,9 @@ pub const unwinder_private_data_size: usize = 5;
 #[cfg(target_arch = "m68k")]
 pub const unwinder_private_data_size: usize = 2;
 
+#[cfg(target_arch = "csky")]
+pub const unwinder_private_data_size: usize = 2;
+
 #[cfg(target_arch = "mips")]
 pub const unwinder_private_data_size: usize = 2;
 

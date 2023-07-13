@@ -890,6 +890,7 @@ pub mod consts {
     /// - aarch64
     /// - loongarch64
     /// - m68k
+    /// - csky
     /// - mips
     /// - mips64
     /// - powerpc
